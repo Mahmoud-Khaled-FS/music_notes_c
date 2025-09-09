@@ -35,7 +35,7 @@ gcc -o wavesynth main.c -lm
 
 1. Notes are defined as numeric constants (following the MIDI standard):
 1. The frequency for each note is calculated from its number m using the formula:
-   \( f_m = 440 \times 2^{\frac{(m - 69)}{12}} \)
+   $$f_m = 440 \times 2^{\frac{(m - 69)}{12}}$$
    Where:
 
    - $f_m$ is the frequency of note $m$
